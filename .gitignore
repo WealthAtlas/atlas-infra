@@ -1,0 +1,27 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Terraform provider plugins
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes config
+*.kube/config
+
+# Secrets
+*.env
+*.env.*
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
